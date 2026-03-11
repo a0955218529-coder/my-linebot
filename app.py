@@ -32,6 +32,9 @@ LINE_CHANNEL_SECRET = "7b925db3520bb968e405fd5a0957b2f0"
 LINE_CHANNEL_ACCESS_TOKEN = "ZnuU+N+STgoywyxFR4pA34D/WosolyZJxO580vsFpVNQE2YVdfn+6OI1225IN75wan/7nyKVWWPr5ipYvTzQ92Z7uVStV9SLzTHBPOUgxsquoTsLv+oTDIJHXjQMVu/sZG/2vFC2mT/Xuhlcnv5rdAdB04t89/1O/w1cDnyilFU="
 GEMINI_API_KEY = "AIzaSyCbuuOIqiq11X5Wc6TIP-EE6EisYpjUz50"
 GOOGLE_SHEET_ID = "1V2iSubJoQ8HmFv9_IxDmG3dnc7pHvQKinHCfHw1Onzo"
+GOOGLE_CREDENTIALS_FILE = os.environ.get("GOOGLE_CREDENTIALS_FILE", "credentials.json")
+GOOGLE_WORKSHEET_NAME = os.environ.get("GOOGLE_WORKSHEET_NAME", "記帳")
+
 # ================================================================
 # 基本檢查
 # ================================================================
